@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section{
+    width: 100%;
+    margin: 50px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-box{
+    border: 5px solid #000;
+    position: relative;
+    width: 1000px;
+    height: 800px;
+}
+
+.red-box, .yellow-box, .green-box{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    position:absolute;
+}
+
+
+.red-box{
+    background-color: rgb(172, 22, 22);
+    left: 50px;
+    top: 50px;
+
+   z-index: 4;
+}
+
+.yellow-box{
+      background-color: rgb(109, 47, 167);
+     /* bottom: 0px; */
+     z-index: 3;
+}
+
+.green-box{
+    background-color: #008000;
+    z-index: 2;
+    left: 80px;
+    top: 80px;
+}
+
+.social-icons img{
+    position: fixed;
+    right: -100px;
+    bottom: 50px;
+    transition: ease-in-out 0.7s;
+}
+
+.social-icons img:hover{
+     transition: ease-in-out 0.7s;
+    right: 0px;
+    
+}
